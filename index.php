@@ -5,7 +5,7 @@
 </head>
 <body>
 <?php
-	$i = 4;
+	$i = 9;
 	echo 'i: ',$i,'<br/>';
 	echo 'i: ',++$i,'<br/>';
 ?>
