@@ -9,9 +9,5 @@
 	echo 'i: ',$i,'<br/>';
 	echo 'i: ',++$i,'<br/>';
 ?>
-wooo
-Testing hook
-
-try this
 </body>
 </html>
