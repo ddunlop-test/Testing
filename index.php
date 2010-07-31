@@ -11,7 +11,5 @@
 ?>
 wooo
 Testing hook
-
-wssssoot - woo
 </body>
 </html>
