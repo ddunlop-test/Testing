@@ -10,5 +10,6 @@
 	echo 'i: ',++$i,'<br/>';
 ?>
 wooo
+Testing hook
 </body>
 </html>
