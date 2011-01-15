@@ -15,6 +15,7 @@ class Controller_Pull extends Controller {
       $commits = $payload->commits;
       $commit = $commits[count($commits)-1];
       Kohana_Log::instance()->add(Kohana::ERROR, $commit->message.' -- '.$commit->url);
+      Kohana_Log::instance()->add(Kohana::ERROR, getcwd());
       $out = `git pull`;
       Kohana_Log::instance()->add(Kohana::ERROR, $out);
     }
